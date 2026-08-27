@@ -2,12 +2,28 @@
 
 [ext_resource type="PackedScene" uid="uid://b0nbboak50tbf" path="res://scenes/card/Card.tscn" id="1_errlg"]
 
-[node name="Test" type="Node2D" unique_id=2138779044]
+[node name="Test" type="Node2D" unique_id=1688091259]
 
 [node name="Card4" parent="." unique_id=1426631680 instance=ExtResource("1_errlg")]
+offset_left = -612.99994
+offset_top = -330.99997
+offset_right = 887.00006
+offset_bottom = 1769.0
 
 [node name="Card3" parent="." unique_id=1449566536 instance=ExtResource("1_errlg")]
+offset_left = -230.99997
+offset_top = -108.999985
+offset_right = 1269.0
+offset_bottom = 1991.0
 
 [node name="Card2" parent="." unique_id=1041801611 instance=ExtResource("1_errlg")]
+offset_left = -505.99994
+offset_top = -186.99998
+offset_right = 994.00006
+offset_bottom = 1913.0
 
 [node name="Card" parent="." unique_id=1442483894 instance=ExtResource("1_errlg")]
+offset_left = -352.99997
+offset_top = -301.99997
+offset_right = 1147.0
+offset_bottom = 1798.0
