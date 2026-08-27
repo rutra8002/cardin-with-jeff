@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://b0nbboak50tbf"]
+
+[ext_resource type="Texture2D" uid="uid://b01dv31340ss2" path="res://assets/cardnolabels.png" id="1_7d3tr"]
+[ext_resource type="Script" uid="uid://c3qroiflseby1" path="res://scenes/card/card.gd" id="1_s5r67"]
+[ext_resource type="Texture2D" uid="uid://71hvv0b6undu" path="res://icon.svg" id="2_3dwn4"]
+[ext_resource type="LabelSettings" uid="uid://c2g2mcctu8i0a" path="res://goofy.tres" id="3_3dwn4"]
+
+[node name="Card" type="MarginContainer" unique_id=1426631680]
+custom_minimum_size = Vector2(1500, 2100)
+offset_right = 1500.0
+offset_bottom = 2100.0
+scale = Vector2(0.1, 0.1)
+script = ExtResource("1_s5r67")
+
+[node name="BackFace" type="TextureRect" parent="." unique_id=1016899884]
+layout_mode = 2
+mouse_filter = 2
+texture = ExtResource("2_3dwn4")
+
+[node name="FrontFace" type="Control" parent="." unique_id=1506862448]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Art" type="TextureRect" parent="FrontFace" unique_id=569633321]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+texture = ExtResource("1_7d3tr")
+
+[node name="Title" type="Label" parent="FrontFace" unique_id=1325454837]
+layout_mode = 0
+offset_left = 164.0
+offset_top = 183.0
+offset_right = 536.0
+offset_bottom = 351.0
+text = "Jeff"
+label_settings = ExtResource("3_3dwn4")
+
+[node name="Power" type="Label" parent="FrontFace" unique_id=1880801213]
+layout_mode = 0
+offset_left = 203.0
+offset_top = 1447.0
+offset_right = 801.0
+offset_bottom = 1615.0
+text = "Power 2"
+label_settings = ExtResource("3_3dwn4")
+
+[node name="Defense" type="Label" parent="FrontFace" unique_id=129753949]
+layout_mode = 0
+offset_left = 197.0
+offset_top = 1699.0
+offset_right = 956.0
+offset_bottom = 1867.0
+text = "Defense 4"
+label_settings = ExtResource("3_3dwn4")

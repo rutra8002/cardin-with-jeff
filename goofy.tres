@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" format=3 uid="uid://c2g2mcctu8i0a"]
+
+[ext_resource type="FontFile" uid="uid://cki6duneux0sp" path="res://assets/hamish-font/Hamish-XWaG.ttf" id="1_kn4ys"]
+
+[resource]
+font = ExtResource("1_kn4ys")
+font_size = 128
+font_color = Color(0, 0, 0, 1)

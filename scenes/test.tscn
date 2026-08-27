@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bdu82n0b0fgsh"]
+
+[ext_resource type="PackedScene" uid="uid://b0nbboak50tbf" path="res://scenes/card/Card.tscn" id="1_errlg"]
+
+[node name="Test" type="Node2D" unique_id=2138779044]
+
+[node name="Card4" parent="." unique_id=1426631680 instance=ExtResource("1_errlg")]
+
+[node name="Card3" parent="." unique_id=1449566536 instance=ExtResource("1_errlg")]
+
+[node name="Card2" parent="." unique_id=1041801611 instance=ExtResource("1_errlg")]
+
+[node name="Card" parent="." unique_id=1442483894 instance=ExtResource("1_errlg")]
